@@ -1,11 +1,11 @@
 import HomePage from '@pages/HomePage';
+import MainLayout from '@layouts/MainLayout';
 
 const App = () => {
   return (
-    <div>
-      <div></div>
+    <MainLayout>
       <HomePage />
-    </div>
+    </MainLayout>
   );
 };
 
